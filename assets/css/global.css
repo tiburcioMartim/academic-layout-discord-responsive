@@ -57,7 +57,7 @@ header {
     align-items: center;
     width: 100%;
     margin: auto;
-    background-image: url(/assets/img/background/Header\ Background-p.svg);
+    background-image: url(../img/background/Header\ Background-p.svg);
     background-size: cover;
     background-position: bottom;
 }
