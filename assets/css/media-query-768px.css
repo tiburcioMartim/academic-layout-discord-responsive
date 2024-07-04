@@ -51,8 +51,37 @@
     .sec-paraPoucos,
     .sec-tecInfo {
         margin: 0;
-        padding: 32px;
+        padding: 48px 16px;
         gap: 0;
+    }
+
+    .sec-crieEspaco img,
+    .sec-facilEncontrar img,
+    .sec-paraPoucos img,
+    .sec-tecInfo img {
+        width: 607px;
+    }
+
+    .sec-crieEspaco h2,
+    .sec-facilEncontrar h2,
+    .sec-paraPoucos h2,
+    .sec-tecInfo h2 {
+        width: 350px;
+        font-size: 40px;
+    }
+
+    .sec-item-container-col h2 {
+        text-align: center;
+        max-width: 460px;
+        width: 810px;
+        font-size: 40px;
+    }
+
+    .sec-item-container-col p {
+        text-align: center;
+        max-width: none;
+        width: 810px;
+        font-size: 16px;
     }
 
     .sec-facilEncontrar {
@@ -63,29 +92,9 @@
         flex-direction: column;
     }
 
-    .sec-item-container-row h2 {
-        max-width: 200px;
-    }
-
-    .sec-item-container-row p {
-        max-width: 270px;
-        font-size: .7524rem;
-    }
-
     .sec-item-container-col {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .sec-item-container-col h2 {
-        max-width: 400px;
-        text-align: center;
-    }
-
-    .sec-item-container-col p {
-        max-width: 610px;
-        font-size: .7524rem;
-        text-align: center;
     }
 }
