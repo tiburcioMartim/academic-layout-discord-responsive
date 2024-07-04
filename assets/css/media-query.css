@@ -1,0 +1,91 @@
+@media screen and (min-width:768px) {
+    .title-g {
+        font-size: 56px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .title-desc {
+        max-width: 765px;
+        text-align: center;
+    }
+
+    p {
+        line-height: 21px;
+    }
+
+    header {
+        background-image: url(../img/background/Header\ Background-full.svg);
+        background-size: cover;
+    }
+
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .btn-light,
+    .btn-dark {
+        width: fit-content;
+    }
+
+    main {
+        width: 90%;
+        padding: 0 1.5rem;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 27px;
+        background-color: #fff;
+
+    }
+
+    .sec-crieEspaco,
+    .sec-facilEncontrar,
+    .sec-paraPoucos,
+    .sec-tecInfo {
+        margin: 0;
+        padding: 32px;
+        gap: 0;
+    }
+
+    .sec-facilEncontrar {
+        flex-direction: row-reverse;
+    }
+
+    .sec-tecInfo {
+        flex-direction: column;
+    }
+
+    .sec-item-container-row h2 {
+        max-width: 200px;
+    }
+
+    .sec-item-container-row p {
+        max-width: 270px;
+        font-size: .7524rem;
+    }
+
+    .sec-item-container-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-item-container-col h2 {
+        max-width: 400px;
+        text-align: center;
+    }
+
+    .sec-item-container-col p {
+        max-width: 610px;
+        font-size: .7524rem;
+        text-align: center;
+    }
+}

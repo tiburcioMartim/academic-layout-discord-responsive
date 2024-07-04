@@ -26,6 +26,7 @@ p {
     color: #23272A !important;
     font-weight: 800;
     font-size: 1.5rem;
+    max-width: 335px;
 }
 
 .open-sans {
@@ -66,7 +67,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     width: fit-content;
     gap: 1.5rem;
     height: 505px;
@@ -76,28 +77,29 @@ header {
     color: #fff;
 }
 
-.btn-light {
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.btn-light,
+.btn-dark {
     background-color: #fff;
     color: #23272A;
     padding: 1rem 1rem;
     border-radius: 2rem;
     font-size: 1rem;
-    min-width: 381px;
+    width: 381px;
     cursor: pointer;
 }
 
 .btn-dark {
     background-color: #23272A;
     color: #fff;
-    padding: 1rem 1rem;
-    border-radius: 2rem;
-    font-size: 1rem;
-    min-width: 381px;
-    cursor: pointer;
 }
 
 main {
-    /* border: 1px solid #000; */
     width: fit-content;
     padding: 0 1.5rem;
 }
@@ -131,6 +133,18 @@ main section {
 .sec-tecInfo {
     margin-top: 110px;
     margin-bottom: 70px;
+}
+
+.sec-item-container-row {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.sec-item-container-col {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
 }
 
 main section img {
